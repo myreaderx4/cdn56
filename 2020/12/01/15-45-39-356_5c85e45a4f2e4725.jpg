@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+  <!--[if IEMobile 7]><html class="no-js ie iem7" lang="en-gb" dir="ltr"><![endif]-->
+  <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en-gb" dir="ltr"><![endif]-->
+  <!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en-gb" dir="ltr"><![endif]-->
+  <!--[if IE 8]><html class="no-js ie lt-ie9" lang="en-gb" dir="ltr"><![endif]-->
+  <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en-gb" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
+  <!--[if !IE]><!--><html class="no-js" lang="en-gb" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+<meta name="format-detection" content="telephone=no">
+<link rel="dns-prefetch" href="//securepubads.g.doubleclick.net" />
+<link rel="dns-prefetch" href="//tpc.googlesyndication.com" />
+<link rel="dns-prefetch" href="//s.ytimg.com" />
+<link rel="dns-prefetch" href="//pbs.twimg.com" />
+<link rel="dns-prefetch" href="//o.twimg.com" />
+<link rel="dns-prefetch" href="//www.youtube.com" />
+<link rel="dns-prefetch" href="//syndication.twitter.com" />
+<link rel="dns-prefetch" href="//googleads.g.doubleclick.net" />
+<link rel="dns-prefetch" href="//ton.twimg.com" />
+<link rel="dns-prefetch" href="//i.ytimg.com" />
+<link rel="dns-prefetch" href="//js-agent.newrelic.com" />
+<link rel="dns-prefetch" href="//bam.nr-data.net" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//stats.g.doubleclick.net" />
+  <!--[if IE]><![endif]-->
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//stats.g.doubleclick.net" />
+<meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQ8CU1VXGwIDVFVRAQA=",licenseKey:"ffefa5a1f6",applicationID:"1304361"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(23),c={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,i.indexOf("dev")!==-1&&(c.dev=!0),i.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&o.on("internal-error",function(t){r(t.stack)}),c.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,c){try{p?p-=1:i(c||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,s.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:s.now();o("err",[t,n])}var o=t("handle"),a=t(24),c=t("ee"),s=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(9),t(8),"addEventListener"in window&&t(5),s.xhrWrappable&&t(10),d=!0)}c.on("fn-start",function(t,e,n){d&&(p+=1)}),c.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),c.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),c.on("internal-error",function(t){o("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var i=t("ee"),o=t("handle"),a=t(9),c=t(8),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(7),"addEventListener"in window&&t(5);var x=NREUM.o.EV;i.on(m,function(t,e){var n=t[0];n instanceof x&&(this.bstStart=y.now())}),i.on(w,function(t,e){var n=t[0];n instanceof x&&o("bst",[n,e,this.bstStart,y.now()])}),a.on(m,function(t,e,n){this.bstStart=y.now(),this.bstType=n}),a.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),this.bstType])}),c.on(m,function(){this.bstStart=y.now()}),c.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),"requestAnimationFrame"])}),i.on(g+p,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),i.on(g+h,function(t){o("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){c.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),c=t("wrap-function")(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var c=r.apply(this,t);return i.emit(n+"start",[t,a],c),c.then(function(t){return i.emit(n+"end",[null,t],c),t},function(t){throw i.emit(n+"end",[t],c),t})})}var i=t("ee").get("fetch"),o=t(24),a=t(23);e.exports=i;var c=window,s="fetch-",f=s+"body-",u=["arrayBuffer","blob","json","text","formData"],d=c.Request,l=c.Response,p=c.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(c,"fetch",s),i.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(s+"done",[null,e],n)}else i.emit(s+"done",[t],n)}))},{}],7:[function(t,e,n){var r=t("ee").get("history"),i=t("wrap-function")(r);e.exports=r;var o=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;o&&o.pushState&&o.replaceState&&(a=o),i.inPlace(a,["pushState","replaceState"],"-")},{}],8:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],9:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(s+u,r),o.on(c+u,i)},{}],10:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",c)}function o(t){y.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(v,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],11:[function(t,e,n){function r(t){if(!c(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),w=Date.now(),v={spanId:h,traceId:m,timestamp:w};return(t.sameOrigin||s(t)&&l())&&(v.traceContextParentHeader=i(h,m),v.traceContextStateHeader=o(h,w,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&s(t)&&d())&&(v.newrelicHeader=a(h,m,w,n,r,f)),v}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",c=1,s="",f="";return i+"@nr="+o+"-"+c+"-"+n+"-"+r+"-"+t+"-"+a+"-"+s+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var c={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(c.d.tk=o),btoa(JSON.stringify(c))}function c(t){return f()&&s(t)}function s(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(20),h=t(13);e.exports={generateTracePayload:r,shouldGenerateTrace:c}},{}],12:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime]))}}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=s(e),t.sameOrigin=t.parsedOrigin.sameOrigin}function o(t,e){t.params.status=e.status;var n=w(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(13),f=t(11).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(17),m=t(16),w=t(14),v=window.XMLHttpRequest;a.features.xhr=!0,t(10),t(6),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<l;c++)e.addEventListener(d[c],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof v&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url&&(n=t[0].url),n&&(this.parsedOrigin=s(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)})}},{}],13:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,c=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||c),"/"===i.pathname&&(r[t]=i),i}},{}],14:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(16);e.exports=r},{}],15:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(23),c=t(24),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw s.emit("fn-err",[arguments,this,t],n),t}finally{s.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],16:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],17:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],18:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(25);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],19:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!w){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),w=!0,d("timing",["fi",e,n])}}function c(t){d("pageHide",[l.now(),t])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var s,f,u,d=t("handle"),l=t("loader"),p=t(22),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var w=!1,v=["click","keydown","mousedown","pointerdown","touchstart"];v.forEach(function(t){document.addEventListener(t,a,!1)})}p(c)}},{}],20:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)i=o[c],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],21:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,s=c.match(a);s&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=s[1])}e.exports={agent:i,version:o,match:r}},{}],22:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],23:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],24:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],25:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?s(t,c,o):o()}function n(n,r,i,o){if(!l.aborted||o){t&&t(n,r,i);for(var a=e(i),c=m(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([x,n,r,a]),a}}function p(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function w(t){return d[t]=d[t]||i(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var g={},y={},x={on:p,addEventListener:p,removeEventListener:h,emit:n,get:w,listeners:m,context:e,buffer:v,abort:a,aborted:!1};return x}function o(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(23),u={},d={},l=e.exports=i();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(g,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+x.offset],null,"api"),c("timing",["load",n]);var r=l.createElement("script");r.src="https://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+x.offset],null,"api")}var a=t(18),c=t("handle"),s=t(23),f=t("ee"),u=t(21),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},y=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:a.getLastTimestamp(),now:a,origin:v,features:{},xhrWrappable:y,userAgent:u};t(15),t(19),l[p]?(l[p]("DOMContentLoaded",o,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",i),d[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var b=0},{}],"wrap-function":[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var i=t("ee"),o=t(24),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,i){function nrWrapper(){var r,a,c,s;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,i],c])}u(e+"start",[r,a,i],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,i,o){i||(i="");var a,c,s,f="-"===i.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+i:i,o,c))}function u(n,r,i){if(!s||e){var o=s;s=!0;try{t.emit(n,r,i,e)}catch(a){l([a,n,r,i])}s=o}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var i in t)c.call(t,i)&&(e[i]=t[i]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=i),n.inPlace=f,n.flag=a,n}},{}]},{},["loader",2,12,4,3]);</script>
+<link rel="apple-touch-icon-precomposed" href="https://www.soundonsound.com/sites/all/themes/sound_on_sound/apple-touch-icon-precomposed-144x144.png" sizes="144x144" />
+<link rel="apple-touch-icon-precomposed" href="https://www.soundonsound.com/sites/all/themes/sound_on_sound/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" href="https://www.soundonsound.com/sites/all/themes/sound_on_sound/apple-touch-icon-precomposed-72x72.png" sizes="72x72" />
+<link rel="apple-touch-icon-precomposed" href="https://www.soundonsound.com/sites/all/themes/sound_on_sound/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
+<meta http-equiv="cleartype" content="on" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<link rel="shortcut icon" href="https://www.soundonsound.com/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width" />
+<link rel="canonical" href="https://www.soundonsound.com/" />
+<link rel="shortlink" href="https://www.soundonsound.com/" />
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2320784461577267&ev=PageView&noscript=1"/></noscript>  <title>Sound On Sound | The World's Premier Music Recording Technology Magazine</title>
+  <link type="text/css" rel="stylesheet" href="https://dt7v1i9vyp3mf.cloudfront.net/advagg_css/css__77qMr-ptcM8lwrOt-O1wP_hB4YFgfhgGEcpIM9eUd4Q__MwAIQzi-LCiPL2qbgg2GKHypOTM2d9IN5B-zqT5_HHw__p28C8xeTsUXMd5VoqKQGkIRzv6Tdka2nfkTpOo2-yDY.css" media="all" />
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://dt7v1i9vyp3mf.cloudfront.net/advagg_css/css__S7Psu8DOCUFFfndZOTGYiAZQaVtZgYmQ7g3HXRAsxPw__zQFBPXOEJH65Ws-_5D-hII7ucADH72_S0OiT1yTN8xM__p28C8xeTsUXMd5VoqKQGkIRzv6Tdka2nfkTpOo2-yDY.css" media="all" />
+<![endif]-->
+<style>#sliding-popup.sliding-popup-top,#sliding-popup.sliding-popup-top .eu-cookie-withdraw-banner,.eu-cookie-withdraw-tab{background:#489af3;}#sliding-popup.sliding-popup-top.eu-cookie-withdraw-wrapper{background:transparent}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p,#sliding-popup label,#sliding-popup div,.eu-cookie-compliance-secondary-button,.eu-cookie-withdraw-tab{color:#ffffff !important;}.eu-cookie-withdraw-tab{border-color:#ffffff;}.eu-cookie-compliance-more-button{color:#ffffff !important;}#sliding-popup.sliding-popup-top{position:fixed;}
+</style>
+  <script type="text/javascript" src="https://dt7v1i9vyp3mf.cloudfront.net/advagg_js/js__gagUJiW5Oh4DVrxz-FA6nBfHSR175Ej1gnTVlbQP2ZQ__a16b1ruXHyMO0qDc-pNSbk_j9rEUEdgsZGTrNFTKPNs__p28C8xeTsUXMd5VoqKQGkIRzv6Tdka2nfkTpOo2-yDY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,r){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date()})(window,document,"script","ga");ga("create", "UA-6700982-1", {"cookieDomain":"auto"});ga("create", "UA-6700982-1", "auto", {"useAmpClientId": true});ga("send", "pageview");
+//--><!]]>
+</script>
+</head>
+<body class="html front not-logged-in">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    <div class="l-page">
+  <header class="l-header" role="banner">
+      <div class="l-region l-region--header">
+    <nav id="block-system-user-menu" role="navigation" class="block block--system block--menu block--system-user-menu">
+      
+  <ul class="menu"><li class="first leaf"><a href="/user/login">Log in</a></li>
+<li class="leaf"><a href="/user/register" title="">Register</a></li>
+<li class="leaf"><a href="/shop/subscriptions" title="">Subscribe</a></li>
+<li class="leaf"><a href="/shop" title="">Shop</a></li>
+<li class="last leaf"><a href="/help" title="">Help</a></li>
+</ul></nav>
+<div id="block-commerce-cart-cart" class="block block--commerce-cart block--commerce-cart-cart">
+        <div class="block__content">
+    <div class="line-item-quantity">
+    <span class="line-item-quantity-raw">0</span>
+    <span class="line-item-quantity-label">items</span>
+  </div>  </div>
+</div>
+<div id="block-sos-tools-sos-tools-search" class="block block--sos-tools block--sos-tools-sos-tools-search">
+        <div class="block__content">
+    <form class="sos-tools-search-block-form" action="/" method="post" id="sos-tools-search-block-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-search">
+  <label class="element-invisible" for="edit-search">Search </label>
+ <input placeholder="Search" type="text" id="edit-search" name="search" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /><input type="hidden" name="form_build_id" value="form-ahskdRpJ7x9q0LZ2Xh3JtZg_nlc1DLb0N5mBM-JgPOs" />
+<input type="hidden" name="form_id" value="sos_tools_search_block_form" />
+</div></form>  </div>
+</div>
+  </div>
+    <div class="l-branding">
+      <div class="branding-data">
+                  <a href="/" title="Home" rel="home"><img class="site-logo" src="/sites/all/themes/sound_on_sound/logo.jpg" alt="Home" /></a>
+          <a href="/" title="Home" rel="home"><img class="site-logo-mobile" src="/sites/all/themes/sound_on_sound/images/logo-mobile.png" alt="Home" /></a>
+        
+                  
+                      <h2 class="site-slogan">SOUND ON SOUND</h2>
+                        </div>
+
+        <div class="l-region l-region--branding">
+    <div id="block-dfp-sos-leaderb-728x90" class="block block--dfp block--dfp-sos-leaderb-728x90">
+        <div class="block__content">
+    <div id="dfp-ad-sos_leaderb_728x90-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-sos_leaderb_728x90" class="dfp-tag-wrapper">
+        <script type="text/javascript">
+      googletag.cmd.push(function() {
+      googletag.display("dfp-ad-sos_leaderb_728x90");
+    });
+  </script>
+  </div>
+</div>  </div>
+</div>
+  </div>
+    </div>
+      <div class="l-region l-region--navigation">
+    <nav id="block-menu-block-1" role="navigation" class="block block--menu-block block--menu-block-1">
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first expanded active menu-mlid-986"><a href="/" title="" class="active">Home</a><ul class="menu"><li class="first leaf menu-mlid-20470"><a href="/about-sos" title="">About</a></li>
+<li class="leaf menu-mlid-20471"><a href="/information/advertising" title="">Advertise</a></li>
+<li class="leaf menu-mlid-20472"><a href="/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-20473"><a href="/information" title="">Information</a></li>
+<li class="leaf menu-mlid-20474"><a href="/readersads" title="">Readers&#039; Ads</a></li>
+<li class="leaf menu-mlid-30279"><a href="/glossary" title="">Glossary</a></li>
+<li class="leaf menu-mlid-20475"><a href="https://www.youtube.com/user/soundonsoundvideo" title="">Videos</a></li>
+<li class="leaf menu-mlid-34341"><a href="/tutorials" title="Non-Linear Educating">Tutorials</a></li>
+<li class="last leaf menu-mlid-20488"><a href="/search/all" title="">Search</a></li>
+</ul></li>
+<li class="expanded menu-mlid-14945"><a href="/news" title="">News</a><ul class="menu"><li class="first leaf menu-mlid-15828"><a href="/news" title="">Latest</a></li>
+<li class="leaf menu-mlid-20845"><a href="/news/all">All News</a></li>
+<li class="last leaf menu-mlid-20487"><a href="/search/news" title="">Search</a></li>
+</ul></li>
+<li class="expanded menu-mlid-12146"><a href="/forum" title="">Forum</a><ul class="menu"><li class="first leaf menu-mlid-14513"><a href="/forum/search.php?search_id=active_topics" title="">Latest posts</a></li>
+<li class="leaf menu-mlid-14514"><a href="/forum/faq.php" title="">FAQ</a></li>
+<li class="leaf menu-mlid-14515"><a href="/forum/memberlist.php?sk=d&amp;sd=d" title="">Members</a></li>
+<li class="leaf menu-mlid-16915"><a href="/forum-rules-etiquette" title="">Rules</a></li>
+<li class="last leaf menu-mlid-20486"><a href="/search/forum" title="">Search</a></li>
+</ul></li>
+<li class="expanded menu-mlid-11565"><a href="/magazine" title="Magazine contents page">Magazine</a><ul class="menu"><li class="first leaf menu-mlid-14516"><a href="/magazine" title="">Latest issue</a></li>
+<li class="leaf menu-mlid-16913"><a href="/shop/subscriptions" title="">Subscribe</a></li>
+<li class="leaf menu-mlid-16914"><a href="/information/advertising" title="">Advertise</a></li>
+<li class="leaf menu-mlid-33968"><a href="/information/publication-dates" title="">Publication Dates</a></li>
+<li class="last leaf menu-mlid-20485"><a href="/search/articles" title="">Search</a></li>
+</ul></li>
+<li class="expanded menu-mlid-15212"><a href="/reviews">Reviews</a><ul class="menu"><li class="first leaf menu-mlid-15832"><a href="/reviews" title="">Articles</a></li>
+<li class="last leaf menu-mlid-20483"><a href="/search/articles" title="">Search</a></li>
+</ul></li>
+<li class="expanded menu-mlid-15213"><a href="/techniques">Techniques</a><ul class="menu"><li class="first leaf menu-mlid-15833"><a href="/techniques" title="">Articles</a></li>
+<li class="leaf menu-mlid-39645"><a href="/series" title="">Series</a></li>
+<li class="leaf menu-mlid-34345"><a href="/tutorials" title="">Tutorials</a></li>
+<li class="last leaf menu-mlid-20482"><a href="/search/articles" title="">Search</a></li>
+</ul></li>
+<li class="expanded menu-mlid-15214"><a href="/people">People</a><ul class="menu"><li class="first leaf menu-mlid-15834"><a href="/people" title="">Articles</a></li>
+<li class="last leaf menu-mlid-20481"><a href="/search/articles" title="">Search</a></li>
+</ul></li>
+<li class="expanded menu-mlid-16186"><a href="/sound-advice" title="">Sound Advice</a><ul class="menu"><li class="first leaf menu-mlid-16956"><a href="/sound-advice" title="">Articles</a></li>
+<li class="leaf menu-mlid-34343"><a href="/tutorials" title="">Tutorials</a></li>
+<li class="last leaf menu-mlid-20480"><a href="/search/articles" title="">Search</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-16187"><a href="/music-business" title="">Music Business</a><ul class="menu"><li class="first leaf menu-mlid-16957"><a href="/music-business" title="">Articles</a></li>
+<li class="last leaf menu-mlid-20479"><a href="/search/articles" title="">Search</a></li>
+</ul></li>
+</ul></div>
+</nav>
+<nav id="block-menu-block-2" role="navigation" class="block block--menu-block block--menu-block-2">
+      
+  <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="first leaf menu-mlid-20470"><a href="/about-sos" title="">About</a></li>
+<li class="leaf menu-mlid-20471"><a href="/information/advertising" title="">Advertise</a></li>
+<li class="leaf menu-mlid-20472"><a href="/contact" title="">Contact</a></li>
+<li class="leaf menu-mlid-20473"><a href="/information" title="">Information</a></li>
+<li class="leaf menu-mlid-20474"><a href="/readersads" title="">Readers&#039; Ads</a></li>
+<li class="leaf menu-mlid-30279"><a href="/glossary" title="">Glossary</a></li>
+<li class="leaf menu-mlid-20475"><a href="https://www.youtube.com/user/soundonsoundvideo" title="">Videos</a></li>
+<li class="leaf menu-mlid-34341"><a href="/tutorials" title="Non-Linear Educating">Tutorials</a></li>
+<li class="last leaf menu-mlid-20488"><a href="/search/all" title="">Search</a></li>
+</ul></div>
+</nav>
+  </div>
+  </header>
+
+  <div class="l-main">
+    <div class="l-content" role="main">
+        <div class="l-region l-region--highlighted">
+    <div id="block-block-16" class="block block--block block--block-16">
+        <div class="block__content">
+    <p><a href="/digital-magazine"><img alt="Stuck At Home? Unable to get to a local newsstand/bookstore? CLICK HERE to sign up for your FREE Digital page-turning replica magazine and get instant access." class="media-element file-media-original" data-delta="30" typeof="foaf:Image" src="https://dt7v1i9vyp3mf.cloudfront.net/styles/sos_original/s3/imagelibrary/p/pageturner_decemberissuepromo_gold-xip46wPrIRaAWmnfL7brdbjDmKiQHKcR.jpg" width="620" height="300" /></a></p>
+  </div>
+</div>
+<div id="block-views-subject-featured" class="block block--views block--views-subject-featured">
+        <div class="block__content">
+    <div class="view view-subject view-id-subject view-display-id-featured view-dom-id-dca94caa7b7cefc55252d765844cf8c7">
+        
+  
+  
+      <div class="view-content">
+      <ul>  <li>  
+          <a href="/sos-podcasts">SOS PODCASTS</a>  </li>
+  <li>  
+          <a href="/covid-19">COVID-19</a>  </li>
+  <li>  
+          <a href="/audio-interfaces">Audio Interfaces</a>  </li>
+  <li>  
+          <a href="/controllers">Controllers</a>  </li>
+  <li>  
+          <a href="/daws">DAWs</a>  </li>
+  <li>  
+          <a href="/keyboards">Keyboards</a>  </li>
+  <li>  
+          <a href="/mastering">Mastering</a>  </li>
+  <li>  
+          <a href="/microphones-miking">Microphones / Miking</a>  </li>
+  <li>  
+          <a href="/mixing-production">Mixing / Production</a>  </li>
+  <li>  
+          <a href="/monitors-monitoring">Monitors / Monitoring</a>  </li>
+  <li>  
+          <a href="/plug-ins">Plug-ins</a>  </li>
+  <li>  
+          <a href="/preamps-channel-strips">Preamps / Channel Strips</a>  </li>
+  <li>  
+          <a href="/recording">Recording</a>  </li>
+  <li>  
+          <a href="/sample-libraries">Sample Libraries</a>  </li>
+  <li>  
+          <a href="/signal-processors">Signal Processors</a>  </li>
+  <li>  
+          <a href="/synthesizers">Synthesizers</a>  </li>
+</ul>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p>Can't see what you are looking for? <a href="/all-subjects">Browse all Subjects</a></p>
+    </div>
+  
+  
+</div>  </div>
+</div>
+  </div>
+      <a id="main-content"></a>
+                              <div class="view view-home-page-listing view-id-home_page_listing view-display-id-page view-dom-id-43c27d2c8a7e9ce52cfe5e9d8d8a257d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <article id="node-4922523" class="node node--news node--promoted node-teaser sos-new node--teaser node--news--teaser clearfix" about="/news/new-vlogger-kit-rode-0" typeof="sioc:Item foaf:Document" role="article" class="node node--news node--promoted node-teaser sos-new node--teaser node--news--teaser">
+      <div class="node--field-image">
+      
+  <div class="blazy blazy--field blazy--field-thumb blazy--field-thumb--page blazy--view blazy--view--home-page-listing blazy--view--home-page-listing--page field--thumb" data-blazy="">
+    <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="Rode Vlogger Kit" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/r/rode_vlogger_kit_vmmel_mountain_upclose_rgb_16x9-h4jfMKYS2o3aPvQrCRPF2C48D3nr_zwm.jpg" loading="lazy" /></div>  </div>
+    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/news/new-vlogger-kit-rode-0" class="content-link">link</a>
+              <h2 class="title" class="node__title"><a href="/news/new-vlogger-kit-rode-0">New Vlogger Kit from Rode</a></h2>
+      
+    <span property="dc:title" content="New Vlogger Kit from Rode" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <div class="field--body">
+    <p>Rode's new accessory pack aims to raise the bar for mobile phone audio and video capture.</p>  </div>
+    </div>
+
+          <div class="submitted">
+          <span class="date"><span property="dc:date dc:created" content="2020-11-25T11:56:43+00:00" datatype="xsd:dateTime">Published 25/11/20</span></span>
+                </div>
+    
+              
+          <nav class="field--section clearfix">
+        
+  News      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <article id="node-4922508" class="node node--news node--promoted node-teaser sos-new node--teaser node--news--teaser clearfix" about="/news/modal-cobalt-8m-8x-unveiled" typeof="sioc:Item foaf:Document" role="article" class="node node--news node--promoted node-teaser sos-new node--teaser node--news--teaser">
+      <div class="node--field-image">
+      
+  <div class="blazy blazy--field blazy--field-thumb blazy--field-thumb--page blazy--view blazy--view--home-page-listing blazy--view--home-page-listing--page field--thumb" data-blazy="">
+    <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="Modal Cobalt 8, Cobalt 8m &amp; Cobalt 8x" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/u/unnamed_14_1-ikYu6sHbVV1.2uWZvD.PHmYknR4cdFJo.jpg" loading="lazy" /></div>  </div>
+    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/news/modal-cobalt-8m-8x-unveiled" class="content-link">link</a>
+              <h2 class="title" class="node__title"><a href="/news/modal-cobalt-8m-8x-unveiled">Modal Cobalt 8m &amp; 8x unveiled</a></h2>
+      
+    <span property="dc:title" content="Modal Cobalt 8m &amp; 8x unveiled" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <div class="field--body">
+    <p>Bristol synth-makers Modal have released desktop module and extended-keyboard versions of their hotly anticipated Cobalt 8 instrument.</p>  </div>
+    </div>
+
+          <div class="submitted">
+          <span class="date"><span property="dc:date dc:created" content="2020-11-24T13:05:26+00:00" datatype="xsd:dateTime">Published 24/11/20</span></span>
+                </div>
+    
+              
+          <nav class="field--section clearfix">
+        
+  News      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <article id="node-4922506" class="node node--news node--promoted node-teaser sos-new node--teaser node--news--teaser clearfix" about="/news/spitfire-release-haunted-house" typeof="sioc:Item foaf:Document" role="article" class="node node--news node--promoted node-teaser sos-new node--teaser node--news--teaser">
+      <div class="node--field-image">
+      
+  <div class="blazy blazy--field blazy--field-thumb blazy--field-thumb--page blazy--view blazy--view--home-page-listing blazy--view--home-page-listing--page field--thumb" data-blazy="">
+    <div class="media media--loading media--video"><img typeof="foaf:Image" height="113" width="178" alt="g6q0ciCwZKE.jpg" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/media-youtube/g6q0ciCwZKE-8N01l_9yG1MEgK4vjxIeVnIvZg28fPSF.jpg" loading="lazy" /></div>  </div>
+    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/news/spitfire-release-haunted-house" class="content-link">link</a>
+              <h2 class="title" class="node__title"><a href="/news/spitfire-release-haunted-house">Spitfire release Haunted House</a></h2>
+      
+    <span property="dc:title" content="Spitfire release Haunted House" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <div class="field--body">
+    <p>The British sampling experts' latest soft-synth was made in collaboration with Warp Records electronica duo Darkstar.</p>  </div>
+    </div>
+
+          <div class="submitted">
+          <span class="date"><span property="dc:date dc:created" content="2020-11-20T07:59:02+00:00" datatype="xsd:dateTime">Published 20/11/20</span></span>
+                </div>
+    
+              
+          <nav class="field--section clearfix">
+        
+  News      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+    <article id="node-4922505" class="node node--news node--promoted node-teaser sos-new node--teaser node--news--teaser clearfix" about="/news/affordable-mpe-roli" typeof="sioc:Item foaf:Document" role="article" class="node node--news node--promoted node-teaser sos-new node--teaser node--news--teaser">
+      <div class="node--field-image">
+      
+  <div class="blazy blazy--field blazy--field-thumb blazy--field-thumb--page blazy--view blazy--view--home-page-listing blazy--view--home-page-listing--page field--thumb" data-blazy="">
+    <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="ROLI LUMI Keys Studio Edition" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/l/lumi_se_pitch_bend_72dpi_-_rgb-atrcEV_TEymF.XROEH3GY3Wqwf1blSyi.jpg" loading="lazy" /></div>  </div>
+    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/news/affordable-mpe-roli" class="content-link">link</a>
+              <h2 class="title" class="node__title"><a href="/news/affordable-mpe-roli">Affordable MPE from ROLI</a></h2>
+      
+    <span property="dc:title" content="Affordable MPE from ROLI" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <div class="field--body">
+    <p>The new LUMI Keys Studio Edition offers polyphonic aftertouch, pitch-bends and more.</p>  </div>
+    </div>
+
+          <div class="submitted">
+          <span class="date"><span property="dc:date dc:created" content="2020-11-19T16:48:33+00:00" datatype="xsd:dateTime">Published 19/11/20</span></span>
+                </div>
+    
+              
+          <nav class="field--section clearfix">
+        
+  News      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><div id="block-views-home-page-articles-feature" class="block block--views block--views-home-page-articles-feature">
+        <h2 class="block__title"><span>Featured Article</span></h2>
+      <div class="block__content">
+    <div class="view view-home-page-articles view-id-home_page_articles view-display-id-feature view-dom-id-49265d54988868d10a76c4bea6c0745d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <article id="node-4922436" class="node node--article node--promoted node-teaser node--teaser node--article--teaser clearfix" about="/reviews/avid-pro-tools-carbon" typeof="sioc:Item foaf:Document" role="article" class="node node--article node--promoted node-teaser node--teaser node--article--teaser">
+      <div class="node--field-image">
+      
+  <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/AvidProToolsCarbon_01-P3jyzsbkTInO0CNEBu0GxhCdsJjmHIom.jpg" loading="lazy" /></div>    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/reviews/avid-pro-tools-carbon" class="content-link">link</a>
+              <h2 class="title" class="node__title"><a href="/reviews/avid-pro-tools-carbon">Avid Pro Tools | Carbon</a></h2>
+      
+    <span property="dc:title" content="Avid Pro Tools | Carbon" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <span class="field--subtitle">
+    Computer Recording System  </span>
+
+  <div class="field--body">
+    <p>Avid’s innovative ‘hybrid’ audio interface promises to banish latency for good.</p>  </div>
+
+  <div class="field--issue-date">
+    Published December 2020  </div>
+    </div>
+
+    
+              
+          <nav class="field--section clearfix">
+        
+  Reviews      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-home-page-articles-articles" class="block block--views block--views-home-page-articles-articles">
+        <h2 class="block__title"><span>Latest Articles</span></h2>
+      <div class="block__content">
+    <div class="view view-home-page-articles view-id-home_page_articles view-display-id-articles view-dom-id-da5bee9dcf9e820f9c608d6411e57b86">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <article id="node-4922437" class="node node--article node--promoted node--sticky node-teaser node--teaser node--article--teaser clearfix" about="/reviews/pro-tools-carbon-first-look" typeof="sioc:Item foaf:Document" role="article" class="node node--article node--promoted node--sticky node-teaser node--teaser node--article--teaser">
+      <div class="node--field-image">
+      
+  <div class="media media--loading media--video"><img typeof="foaf:Image" height="113" width="178" alt="mSnMBRMvOCQ.jpg" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/media-youtube/mSnMBRMvOCQ-Pp6tUO_RFMMBV5iSVjzy0J3BK9qVNydd.jpg" loading="lazy" /></div>    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/reviews/pro-tools-carbon-first-look" class="content-link">link</a>
+              <h2 class="title" class="node__title"><a href="/reviews/pro-tools-carbon-first-look">Pro Tools | Carbon - First Look</a></h2>
+      
+    <span property="dc:title" content="Pro Tools | Carbon - First Look" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <span class="field--subtitle">
+    What Is A &#039;Hybrid&#039; Audio Interface?  </span>
+
+  <div class="field--body">
+    <p>Pro Tools | Carbon might be the biggest news from the world of music technology this year. But how does Avid's "hybrid audio interface" work?</p>  </div>
+
+  <div class="field--issue-date">
+    Published December 2020  </div>
+    </div>
+
+    
+              
+          <nav class="field--section clearfix">
+        
+  Reviews      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <article id="node-4922500" class="node node--article node--promoted node--sticky node-teaser node--teaser node--article--teaser clearfix" about="/music-business/adam-audio-20-years-innovation-podcast" typeof="sioc:Item foaf:Document" role="article" class="node node--article node--promoted node--sticky node-teaser node--teaser node--article--teaser">
+      <div class="node--field-image">
+      
+  <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="ADAM Audio" title="ADAM Audio" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/a/adam_btb_header-QVofDCUBRmQd5ZGWDUAvVEVv7dFu6B9Z.jpg" loading="lazy" /></div>    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/music-business/adam-audio-20-years-innovation-podcast" class="content-link">link</a>
+              <h2 class="title" class="node__title"><a href="/music-business/adam-audio-20-years-innovation-podcast">ADAM Audio - 20 Years Of Innovation | Podcast</a></h2>
+      
+    <span property="dc:title" content="ADAM Audio - 20 Years Of Innovation | Podcast" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <span class="field--subtitle">
+    Behind The Brand  </span>
+
+  <div class="field--body">
+    <p>Adam Shepard of ADAM chats to Sam Inglis about the distinctive technology at the heart of ADAM's loudspeakers and explains how they've achieved so much in a mere five years!</p>  </div>
+
+  <div class="field--issue-date">
+    Published December 2020  </div>
+    </div>
+
+    
+              
+          <nav class="field--section clearfix">
+        
+  Music Business      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <article id="node-4922441" class="node node--article node-teaser node--teaser node--article--teaser clearfix" about="/techniques/classic-tracks-darude-sandstorm" typeof="sioc:Item foaf:Document" role="article" class="node node--article node-teaser node--teaser node--article--teaser">
+      <div class="node--field-image">
+      
+  <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/C/ClassicTracks_1220_05-jemv9xjcrrBklxwa05pzjk7C.6HymR7m.jpg" loading="lazy" /></div>    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/techniques/classic-tracks-darude-sandstorm" class="content-link" title="Web Subscriber Exclusive">link</a>
+              <h2 class="title" class="node__title"><a href="/techniques/classic-tracks-darude-sandstorm">Classic Tracks: Darude &#039;Sandstorm&#039;</a></h2>
+      
+    <span property="dc:title" content="Classic Tracks: Darude &#039;Sandstorm&#039;" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <span class="subonly" title="Web subscribers only">.</span>
+  <div class="field--body">
+    <p>Darude’s 1999 dance hit has taken on an extensive and often surprising life of its own.</p>  </div>
+
+  <div class="field--issue-date">
+    Published December 2020  </div>
+    </div>
+
+    
+              
+          <nav class="field--section clearfix">
+        
+  Techniques      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <article id="node-4922460" class="node node--article node-teaser node--teaser node--article--teaser clearfix" about="/reviews/izotope-rx8" typeof="sioc:Item foaf:Document" role="article" class="node node--article node-teaser node--teaser node--article--teaser">
+      <div class="node--field-image">
+      
+  <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/i/izotope_rx8_01a_spectral_recovery_before-MgZAhoMj6.Bz_WyHsH85GitVQ8a31nWd.jpg" loading="lazy" /></div>    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/reviews/izotope-rx8" class="content-link" title="Web Subscriber Exclusive">link</a>
+              <h2 class="title" class="node__title"><a href="/reviews/izotope-rx8">iZotope RX8</a></h2>
+      
+    <span property="dc:title" content="iZotope RX8" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <span class="subonly" title="Web subscribers only">.</span>
+  <span class="field--subtitle">
+    Audio Restoration Software  [Mac &amp; Windows]  </span>
+
+  <div class="field--body">
+    <p>Once again, iZotope have raised the benchmark for affordable audio restoration.</p>  </div>
+
+  <div class="field--issue-date">
+    Published December 2020  </div>
+    </div>
+
+    
+              
+          <nav class="field--section clearfix">
+        
+  Reviews      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    <article id="node-4922486" class="node node--article node-teaser node--teaser node--article--teaser clearfix" about="/reviews/toontrack-legacy-rock-sdx-classic-rock-ezx" typeof="sioc:Item foaf:Document" role="article" class="node node--article node-teaser node--teaser node--article--teaser">
+      <div class="node--field-image">
+      
+  <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/T/ToontrackLegacyOfRockSDXClasicRockEZX_01-HKPkO0t.wSMBNQPH2o2YlRuXwIGxW5l4.jpg" loading="lazy" /></div>    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/reviews/toontrack-legacy-rock-sdx-classic-rock-ezx" class="content-link">link</a>
+              <h2 class="title" class="node__title"><a href="/reviews/toontrack-legacy-rock-sdx-classic-rock-ezx">Toontrack Legacy Of Rock SDX &amp; Classic Rock EZX</a></h2>
+      
+    <span property="dc:title" content="Toontrack Legacy Of Rock SDX &amp; Classic Rock EZX" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <span class="field--subtitle">
+    Expansions For Superior Drummer &amp; EZdrummer  </span>
+
+  <div class="field--body">
+    <p>Toontrack recapture the drums of rock’s golden age with help from legendary producer Eddie Kramer.</p>  </div>
+
+  <div class="field--issue-date">
+    Published December 2020  </div>
+    </div>
+
+    
+              
+          <nav class="field--section clearfix">
+        
+  Reviews      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+  <div class="views-row views-row-6 views-row-even views-row-last">
+    <article id="node-4922446" class="node node--article node-teaser node--teaser node--article--teaser clearfix" about="/people/talkback-steph-marziano" typeof="sioc:Item foaf:Document" role="article" class="node node--article node-teaser node--teaser node--article--teaser">
+      <div class="node--field-image">
+      
+  <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/T/Talkback_12_20_01-ji7f7Km3JjjM9r2RhT2DpGeZSVBLoCWg.jpg" loading="lazy" /></div>    </div>
+  
+  <div class="node--content-wrapper">
+
+    <a href="/people/talkback-steph-marziano" class="content-link" title="Web Subscriber Exclusive">link</a>
+              <h2 class="title" class="node__title"><a href="/people/talkback-steph-marziano">Talkback: Steph Marziano</a></h2>
+      
+    <span property="dc:title" content="Talkback: Steph Marziano" class="rdf-meta element-hidden"></span>
+    
+    <div class="content" class="node__content">
+	  
+  <span class="subonly" title="Web subscribers only">.</span>
+  <span class="field--subtitle">
+    The Brightest New Talent  </span>
+
+  <div class="field--body">
+    <p>In our new monthly feature, we track down the new producers who are making waves and find out what makes them tick.</p>  </div>
+
+  <div class="field--issue-date">
+    Published December 2020  </div>
+    </div>
+
+    
+              
+          <nav class="field--section clearfix">
+        
+  People      </nav>
+    
+    
+  </div>
+
+</article>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+          </div>
+
+      <aside class="l-region l-region--sidebar-first">
+    <div id="block-dfp-sos-video-ad-300x170" class="block block--dfp block--dfp-sos-video-ad-300x170">
+        <div class="block__content">
+    <div id="dfp-ad-sos_video_ad_300x170-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-sos_video_ad_300x170" class="dfp-tag-wrapper">
+        <script type="text/javascript">
+      googletag.cmd.push(function() {
+      googletag.display("dfp-ad-sos_video_ad_300x170");
+    });
+  </script>
+  </div>
+</div>  </div>
+</div>
+<div id="block-views-competitions-comp-sidebar" class="block block--views block--views-competitions-comp-sidebar">
+        <h2 class="block__title"><span>SOS Competitions</span></h2>
+      <div class="block__content">
+    <div id="block-views-competitions-comp_sidebar-ajax-content" class="ajaxblocks-wrapper-7"><script type="text/javascript"></script><noscript><div class="view view-competitions view-id-competitions view-display-id-comp_sidebar view-dom-id-abea8b9c9d58f5852b3af54dce1a79d5">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/competition/win-presonus-studiolive-32sc-series-iii-mixing-console">Win! PreSonus StudioLive 32SC Series III Mixing Console</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/competition/win-vicoustic-vicstudio-boxes">Win! Vicoustic VicStudio Boxes</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></noscript></div>  </div>
+</div>
+<div id="block-dfp-sos-side-300x600" class="block block--dfp block--dfp-sos-side-300x600">
+        <div class="block__content">
+    <div id="dfp-ad-sos_side_300x600-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-sos_side_300x600" class="dfp-tag-wrapper">
+        <script type="text/javascript">
+      googletag.cmd.push(function() {
+      googletag.display("dfp-ad-sos_side_300x600");
+    });
+  </script>
+  </div>
+</div>  </div>
+</div>
+<div id="block--managed-1" class="block block---managed block---managed-1" id="block-adsense-managed-1" class="block block--adsense-managed block--adsense-managed-1">
+
+    
+  <div class="content" class="block__content">
+    <div style='text-align:center'><div class='adsense' style='width:300px;height:250px;'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300x250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-3837112072614680"
+     data-ad-slot="3034990827"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div>  </div>
+</div>
+<nav id="block-menu-block-5" role="navigation" class="block block--menu-block block--menu-block-5">
+        <h2 class="block__title"><span>Readers&#039; Ads</span></h2>
+    
+  <div class="menu-block-wrapper menu-block-5 menu-name-menu-readers-ads parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-15815"><a href="/readersads" title="">View all ads</a></li>
+<li class="last leaf menu-mlid-15806"><a href="/readersads/free" title="">Create free ad</a></li>
+</ul></div>
+</nav>
+<div id="block-block-11" class="block block--block block--block-11">
+        <div class="block__content">
+    <p><a class="fake-submit-gr" href="/newsletter/signup">Sign Up TO<br>
+	SOS Newsletters</a></p>
+  </div>
+</div>
+<div id="block-sos-youtube-sos-youtube-latest-videos" class="block block--sos-youtube block--sos-youtube-sos-youtube-latest-videos">
+        <h2 class="block__title"><span>Latest Videos</span></h2>
+      <div class="block__content">
+    <div class="block--views-videos-block"><div class="views-row"><a href="/reviews/pro-tools-carbon-first-look" class="img-vid"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" typeof="foaf:Image" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/300px_wide_plain/s3/media-youtube/mSnMBRMvOCQ-kXlmrn4m_QjL.87Fr2zy_HH7mwuG.DMB.jpg" width="300" height="169" alt="" class="b-lazy" loading="lazy" /></a><span class="views-field-filename"><a href="/reviews/pro-tools-carbon-first-look">First Look: Pro Tools | Carbon. What is a &quot;hybrid&quot; audio interface anyway?</a></span><br /><span class="views-field-timestamp">2 weeks 5 days ago.</span></div><div class="views-row"><a href="/techniques/mastering-essentials-eq-balance-dont-match" class="img-vid"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" typeof="foaf:Image" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/300px_wide_plain/s3/media-youtube/de50tLsRyb4-7bPemLfjxp3QGvx1MM8vh6OTfyyvgN65.jpg" width="300" height="169" alt="" class="b-lazy" loading="lazy" /></a><span class="views-field-filename"><a href="/techniques/mastering-essentials-eq-balance-dont-match">Mastering Essentials Part 4 - Mastering EQ: Balance, Don’t Match</a></span><br /><span class="views-field-timestamp">3 weeks 5 days ago.</span></div><div class="views-row"><a href="/techniques/mastering-essentials-how-loud-should-you-master" class="img-vid"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" typeof="foaf:Image" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/300px_wide_plain/s3/media-youtube/Jsxg11Yh3Ns-1ExIgMit3_CsvbVRH8NGnIlqAheOuwte.jpg" width="300" height="169" alt="" class="b-lazy" loading="lazy" /></a><span class="views-field-filename"><a href="/techniques/mastering-essentials-how-loud-should-you-master">Mastering Essentials Part 3 - How loud should I master?</a></span><br /><span class="views-field-timestamp">1 month 1 week ago.</span></div></div>  </div>
+</div>
+<div id="block--managed-2" class="block block---managed block---managed-2" id="block-adsense-managed-2" class="block block--adsense-managed block--adsense-managed-2">
+
+    
+  <div class="content" class="block__content">
+    <div style='text-align:center'><div class='adsense' style='width:300px;height:250px;'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300x250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-3837112072614680"
+     data-ad-slot="6085795618"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div>  </div>
+</div>
+  </aside>
+  </div>
+
+  <div class="l-featured">
+      <div class="l-region l-region--featured">
+    <div id="block-views-slick-sections-reviews" class="block block--views block--views-slick-sections-reviews">
+        <h2 class="block__title"><span>Recent Product Reviews</span></h2>
+      <div class="block__content">
+    <div class="view view-slick-sections view-id-slick_sections view-display-id-reviews view-dom-id-3fe1ad1f79a83148a4a61fc37693e636">
+        
+  
+  
+      <div class="view-content">
+      <div class="slick blazy slick--skin--grid slick--optionset--carousel slick--view--slick-sections slick--view--slick-sections--reviews" data-blazy="" id="slick-views-slick-sections-reviews-12"><div id="slick-views-slick-sections-reviews-12-slider" class="slick__slider" data-slick="{&quot;dots&quot;:true,&quot;draggable&quot;:false,&quot;focusOnSelect&quot;:true,&quot;infinite&quot;:false,&quot;lazyLoad&quot;:&quot;blazy&quot;,&quot;rtl&quot;:false,&quot;slide&quot;:&quot;.slick__slide&quot;,&quot;slidesToShow&quot;:5,&quot;slidesToScroll&quot;:5,&quot;speed&quot;:800,&quot;waitForAnimate&quot;:false,&quot;randomize&quot;:0,&quot;responsive&quot;:[{&quot;breakpoint&quot;:800,&quot;settings&quot;:{&quot;centerMode&quot;:true,&quot;speed&quot;:800}}]}"><div class="slick__slide slide slide--0"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="Gear Of The Year logo" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/g/gearofyear_header-YxaVYv.dNhqmly3UtXipDLZOp6P.KRSF.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/2020-gear-year">2020 Gear Of The Year!</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--1"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/APS_Klasik_2020_01-vVAWIKRLqWcC3w9.1Bx5FUFQ4Vlhy_l..jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/aps-klasik-2020">APS Klasik 2020</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--2"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/a/arturia_modulations_01-U4P2D02SDZraouFyLrTNRG0hMYESf60Y.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/arturia-modulations">Arturia Modulations</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--3"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/AudientEVO4EVO8_01-66z8arsaI.lxkf8QfLOeSXbti7MIvype.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/audient-evo-4-evo-8">Audient EVO 4 &amp; EVO 8</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--4"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/a/audified_vocalmint_01-wEhL.vx4lvsxifiDlJ3liGdhZ_3SW2G8.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/audified-vocalmint-compressor">Audified VocalMint Compressor</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--5"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/AA_HiX50-LnJ_hfwhx7alJUSCXhWJNyerrcFl5SzB.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/austrian-audio-hi-x50">Austrian Audio Hi-X50</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--6"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/Avantone_CLA10A_01-Un_spamvbeEsnR7chPXcabLILNWbhPhB.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/avantone-cla-10a">Avantone CLA-10A</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--7"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/AvidProToolsCarbon_01-P3jyzsbkTInO0CNEBu0GxhCdsJjmHIom.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/avid-pro-tools-carbon">Avid Pro Tools | Carbon</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--8"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/S/SampleShop_1220_01-C4xPpddcLZY7L09eLw0nBNUpEyUo7i99.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/best-service-emotional-viola">Best Service Emotional Viola</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--9"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/b/black_rooster_kh_comp1_01-Qv3iT1NKdjLxzSMlKklr753SFR_LhBFq.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/black-rooster-audio-kh-comp1">Black Rooster Audio KH-COMP1</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--10"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/e/eventide_spring_01-zXeET4xsoGth5mEOQOXrk2uqZpHEd.nE.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/eventide-spring">Eventide Spring</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--11"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/g/gik_viso_booth_01-5F5Sj.EZdI0r3GNE7E7ybXsTJ.nlyPr2.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/gik-acoustics-viso-booth">GIK Acoustics VISO Booth</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--12"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/H/HeavyocityDamage2_01-CvvfguY0vyvXTAR5SQiSJBRKuFp6O1lm.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/heavyocity-damage-2">Heavyocity Damage 2</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--13"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/S/SampleShop_1220_03-HRMS8dLxb_kjKcy0hl_Ob2VxFAkKp.yz.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/session-audio-guitar-swell">In Session Audio Guitar Swell</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--14"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/M/Modular_1220_02-PcemCEAApSzqpPx1nqVd7VQuJlKlWC2A.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/node/4922467">IO‑Instruments Sponde</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--15"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/i/izotope_rx8_01a_spectral_recovery_before-MgZAhoMj6.Bz_WyHsH85GitVQ8a31nWd.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/izotope-rx8">iZotope RX8</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--16"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/M/Mojave_MA50_01-1Rrs4mcw50oSbcRVMF81OAgYObZrzRQK.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/mojave-ma-50">Mojave MA-50</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--17"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/n/noimageicon-YZnA5W2zeIMmilW5t3W.dZ.wurrf.m.9.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/mojave-ma-50-audio-examples">Mojave MA-50 Audio Examples</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--18"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/M/Modular_1220_03-cmP73SuCu8WPqaDsZCPN550lc5aLTGqO.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/node/4922468">Patching Panda Moon Phase</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--19"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/S/SampleShop_1220_02-pxBUyZLGp1iTJThv2AoyBCFuFyXPGPyM.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/performance-samples-oceania-ii">Performance Samples Oceania II</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--20"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--video"><img typeof="foaf:Image" height="113" width="178" alt="mSnMBRMvOCQ.jpg" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/media-youtube/mSnMBRMvOCQ-Pp6tUO_RFMMBV5iSVjzy0J3BK9qVNydd.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/pro-tools-carbon-first-look">Pro Tools | Carbon - First Look</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--21"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/M/Modular_1220_01-qywo1cEo02xKvV6mrihGh7SJOon79Wyx.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/node/4922466">RYK Modular M185 Sequencer</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--22"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/S/SampleShop_1220_04-ntzJUffnZU8FhkaojCd5e4DMHCnuAmvI.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/sonixinema-abstract">Sonixinema Abstract</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--23"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/S/SoundMorphDust_01-WJwnzGnJ2X9hS9UCLkxLGQGDLRQGPyFK.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/soundmorph-dust">SoundMorph Dust</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--24"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/s/source_audio_eq2_01-plh2B_dJebTkTMOsoSUtK6yxIsSab1Kd.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/source-audio-eq2">Source Audio EQ2</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--25"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/S/SpitfireAudioAbbeyRoadOne_01-WFd4S9rVMPKqa3ZH6PSpRTH9fKHeUsh..jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/spitfire-audio-abbey-road-one-orchestral-foundations">Spitfire Audio Abbey Road One: Orchestral Foundations</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--26"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/t/tascam_model_12_01-ubzKDDMcaM9mzHQSyUhhphxw7E2bLRVj.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/tascam-model-12">Tascam Model 12</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--27"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/t/tc_electronic_finalizer_01-HrkdUtVchB3DNz98RJtjlrd0VPpuf865.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/tc-electronic-finalizer">TC Electronic Finalizer</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--28"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/T/ToontrackLegacyOfRockSDXClasicRockEZX_01-HKPkO0t.wSMBNQPH2o2YlRuXwIGxW5l4.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/toontrack-legacy-rock-sdx-classic-rock-ezx">Toontrack Legacy Of Rock SDX &amp; Classic Rock EZX</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--29"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/U/UDOAudioSuper6_01-tzW6KOExtr9CQoeOs8SBip9NDhk9cdgz.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/udo-audio-super-6">UDO Audio Super 6</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--30"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/u/united_plugins_transmutator_01-SVI1XQDJobkPrjhwxa1qteAnHWRZkk2K.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/united-plugins-transmutator">United Plugins Transmutator</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--31"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/w/waves_kaleidoscopes_01-Z17hmEVsTKQ2CnKYRQpOOVgmqdd_ykZJ.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/waves-kaleidoscopes">Waves Kaleidoscopes</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--32"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/Z/Zoom_Update_01-bIsu.inCkoBOpvTt7EwYcSLJRK5MKMJX.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/zoom-522">Zoom 5.2.2</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--33"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/M/Modular_1120_01-1n3DpOQ1GGx107olLb9pvTYN_g4psMgj.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/node/4922356">4MS Ensemble Oscillator</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--34"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/AkaiMPKMiniMkIII_01-3gz8UyqNet2yynKxF9tOs0uK2UT3nBXg.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/akai-mpk-mini-mkiii">Akai MPK Mini MkIII</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--35"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/Amphion_FlexBase25_01-NNabeKBmIYiN1toTSV3bHupIFxoCbMrq.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/amphion-flexbase25">Amphion FlexBase25</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--36"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/AntelopeAudioZenTourSynergyCore_01-3bmYvBQCqoq8e4cULaDGtzuUvcF1hN21.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/antelope-audio-zen-tour-synergy-core">Antelope Audio Zen Tour Synergy Core</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--37"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/a/api_312_01-.1DtF4WkbAHEM2ofJZRGYBzPmpAmdYD4.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/api-312">API 312</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--38"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/AppleMacBookPro13_01-xfg52mxR.qe_BqYBvHY6ugZ2q1IabGFq.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/apple-macbook-pro-13-2020">Apple  MacBook Pro 13 (2020)</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--39"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/A/Aston_Element_01-u.Vjlo_ihsYOdVtTjJXzjcXgsfbIYsS7.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/reviews/aston-element">Aston Element</a></span>  </div></div></li></ul></div></div><nav class="slick__arrow" role="navigation"><button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0">Previous</button><button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0">Next</button></nav></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-slick-sections-techniques" class="block block--views block--views-slick-sections-techniques">
+        <h2 class="block__title"><span>Recent Techniques Articles</span></h2>
+      <div class="block__content">
+    <div class="view view-slick-sections view-id-slick_sections view-display-id-techniques view-dom-id-ac62c1ca5ed13e294322bf0d3fb828e4">
+        
+  
+  
+      <div class="view-content">
+      <div class="slick blazy slick--skin--grid slick--optionset--carousel slick--view--slick-sections slick--view--slick-sections--techniques" data-blazy="" id="slick-views-slick-sections-techniques-13"><div id="slick-views-slick-sections-techniques-13-slider" class="slick__slider" data-slick="{&quot;dots&quot;:true,&quot;draggable&quot;:false,&quot;focusOnSelect&quot;:true,&quot;infinite&quot;:false,&quot;lazyLoad&quot;:&quot;blazy&quot;,&quot;rtl&quot;:false,&quot;slide&quot;:&quot;.slick__slide&quot;,&quot;slidesToShow&quot;:5,&quot;slidesToScroll&quot;:5,&quot;speed&quot;:800,&quot;waitForAnimate&quot;:false,&quot;randomize&quot;:0,&quot;responsive&quot;:[{&quot;breakpoint&quot;:800,&quot;settings&quot;:{&quot;centerMode&quot;:true,&quot;speed&quot;:800}}]}"><div class="slick__slide slide slide--0"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/C/ClassicTracks_1220_05-jemv9xjcrrBklxwa05pzjk7C.6HymR7m.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/classic-tracks-darude-sandstorm">Classic Tracks: Darude &#039;Sandstorm&#039;</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--1"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/c/cubase_1220_01-Z5EIW0oAyPtLz27TDM52.dXlF7wqS_WV.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/cubase-string-theory-part-2">Cubase: String Theory Part 2</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--2"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/n/noimageicon-YZnA5W2zeIMmilW5t3W.dZ.wurrf.m.9.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/cubase-string-theory-part-2-audio">Cubase: String Theory Part 2 Audio</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--3"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/D/DP_1220_01-1R7ULBnKI3Mqshmm9fjGft82oqtDBJRZ.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/digital-performer-working-clips">Digital Performer: Working With Clips</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--4"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/I/IT_1220_01-0bkSF84IDHdXrLxOGEOPY2Xiye4Kf7Ew.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/inside-track-machine-gun-kelly-concert-aliens">Inside Track: Machine Gun Kelly &#039;Concert For Aliens&#039;</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--5"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/L/LiveTech_1220_01-8st_adyO7oKvobY1INhD9doRy3kTrLle.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/live-session-view">Live: Session View</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--6"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/L/Logic_1220_01-_AI5dOSCcLZoZUHoX0GccTbuEUzOuFDc.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/logic-pro-step-sequencer">Logic Pro: The Step Sequencer</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--7"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/p/patchbays_1220_01-HkSKKdlnGVxt.23L3T_KYGhdjGJtn.4W.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/patchbays-modern-studio">Patchbays In The Modern Studio</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--8"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/S/S1_1220_01-pvQCoj9sJ1JM4g2KAiTLFU0dLcBZtl_2.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/studio-one-exploring-analog-delay">Studio One: Exploring Analog Delay</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--9"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/c/cubase_1120_01-L43RWFIUo7482MHHWknAatRJqyZXALPO.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/cubase-string-theory-part-1">Cubase: String Theory Part 1</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--10"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/n/noimageicon-YZnA5W2zeIMmilW5t3W.dZ.wurrf.m.9.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/cubase-string-theory-part-1-audio">Cubase: String Theory Part 1 Audio</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--11"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/J/JamHot_01-HVyqWobvFP6wW5np5JGSnhGpLW0M5Ys5.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/dawless-jamming">DAWless Jamming</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--12"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="Producer Mat Gendreau - Photo Credit Ben Leuner" title="Producer Mat Gendreau - Photo Credit Ben Leuner" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/m/mathieu_gendreau_header_credit-ben_leuner-knMf7tmgqC7i2imHTtXz5F2846ldUAae.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/eqing-processing-reverbs-podcast">EQing &amp; Processing Reverbs | Podcast</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--13"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/I/IT_1120_01-MeRMNn5WomICvWegmlXUXRrEgaKa8MrW.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/inside-track-pop-smoke-woo">Inside Track: Pop Smoke &#039;The Woo&#039;</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--14"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/R/RX2_05-jEyqXOyGQpAbyATCyf4ghU8x7qDn7h9D.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/izotope-rx-music-recording-part-2">iZotope RX For Music Recording: Part 2</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--15"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/L/Logic_1120_01-RKZhPeWx_.XogwiQohc6PQFnbclDdhqj.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/logic-pro-introducing-sampler">Logic Pro: Introducing Sampler</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--16"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--video"><img typeof="foaf:Image" height="113" width="178" alt="de50tLsRyb4.jpg" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/media-youtube/de50tLsRyb4-4RquSguWhuKO1B4fBuHLJ8dKPtZf7_a3.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/mastering-essentials-eq-balance-dont-match">Mastering Essentials: EQ - Balance, Don’t Match</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--17"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--video"><img typeof="foaf:Image" height="113" width="178" alt="Jsxg11Yh3Ns.jpg" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/media-youtube/Jsxg11Yh3Ns-ypNS3qbPql1.zhLQZt2.CskKbwy6Chrg.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/mastering-essentials-how-loud-should-you-master">Mastering Essentials: How Loud Should You Master?</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--18"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/P/PT_1120_01-lPR4m_2EVYv5E7pVJXWTIGYrUt.9u5pl.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/pro-tools-tempo-mapping-beat-detective">Pro Tools: Tempo Mapping With Beat Detective</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--19"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/p/processing_reverb_06-tQ868BTxr7q_jZ95wg_duW6YiDfMjw.O.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/processing-reverb">Processing Reverb</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--20"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/S/S1_1120_01-GRMZr5P06pFg67e0ptybOyvf5s9t7rD6.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/studio-one-working-mpe">Studio One: Working With MPE</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--21"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/R/ReasonTech_1120_01-OwFA8yhdzpcgKsph7grpzN5mnd2oXJt6.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/echo-reasons-versatile-delay">The Echo: Reason&#039;s Versatile Delay</a></span>  </div></div></li></ul></div><div class="slick__slide slide slide--22"><ul class="block-columngrid block-grid slide__content small-block-grid-1 large-block-grid-5"><li class="grid slide__grid"><div class="grid__content"><div class="slick__slide slide slide--0">  
+          <div class="media media--loading media--image"><img typeof="foaf:Image" height="113" width="178" alt="" title="" class="media__element b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://dt7v1i9vyp3mf.cloudfront.net/styles/teaser/s3/imagelibrary/g/gerzon_array_01-JVmMGHoKthiITRdkHNOwG0MxHW4GA62Y.jpg" loading="lazy" /></div>    
+          <span class="views-field-title"><a href="/techniques/gerzon-array">The Gerzon Array</a></span>  </div></div></li></ul></div></div><nav class="slick__arrow" role="navigation"><button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0">Previous</button><button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0">Next</button></nav></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+  </div>
+
+  <div class="l-postscript">
+      <div class="l-region l-region--postscript-first">
+    <div id="block-dfp-sos-rect-level-1" class="block block--dfp block--dfp-sos-rect-level-1">
+        <div class="block__content">
+    <div id="dfp-ad-sos_rect_level_1-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-sos_rect_level_1" class="dfp-tag-wrapper">
+        <script type="text/javascript">
+      googletag.cmd.push(function() {
+      googletag.display("dfp-ad-sos_rect_level_1");
+    });
+  </script>
+  </div>
+</div>  </div>
+</div>
+<div id="block-phpbbforum-new-posts" class="block block--phpbbforum block--phpbbforum-new-posts">
+        <h2 class="block__title"><span>New forum posts</span></h2>
+      <div class="block__content">
+    <div id="block-phpbbforum-new_posts-ajax-content" class="ajaxblocks-wrapper-7"><script type="text/javascript"></script><noscript><ul class="menu"><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=24&amp;t=75315&amp;p=725719&amp;hilit=#p725719" class="topic">Re: DIY popshield advice? (for the millionth time)</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=24&amp;t=75315&amp;view=unread#unread" title="View first unread post" class="topic-last">></a></span><br /><span class="phpbbforum_recent_author"><a href="https://www.soundonsound.com/forum/memberlist.php?mode=viewprofile&amp;u=148363" style="color: #003333;" class="username-coloured" rel="nofollow">Matt Houghton</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=24&amp;t=75315&amp;p=725719&amp;hilit=#p725719" title="View the latest post" class="author">></a></span><br /><span class="phpbbforum_recent_date">Tue Dec 01, 2020 10:07 am</span><br /><span class="phpbbforum_recent_title"><a href="https://www.soundonsound.com/forum/viewforum.php?f=24">DIY Electronics & Studio Design</a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75321&amp;p=725718&amp;hilit=#p725718" class="topic">Re: Home exp recording</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75321&amp;view=unread#unread" title="View first unread post" class="topic-last">></a></span><br /><span class="phpbbforum_recent_author"><a href="https://www.soundonsound.com/forum/memberlist.php?mode=viewprofile&amp;u=146377" style="color: #003333;" class="username-coloured" rel="nofollow">CS70</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75321&amp;p=725718&amp;hilit=#p725718" title="View the latest post" class="author">></a></span><br /><span class="phpbbforum_recent_date">Tue Dec 01, 2020 10:05 am</span><br /><span class="phpbbforum_recent_title"><a href="https://www.soundonsound.com/forum/viewforum.php?f=15">Recording: Gear & Techniques</a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=23&amp;t=75290&amp;p=725717&amp;hilit=#p725717" class="topic">Re: Pedals</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=23&amp;t=75290&amp;view=unread#unread" title="View first unread post" class="topic-last">></a></span><br /><span class="phpbbforum_recent_author"><a href="https://www.soundonsound.com/forum/memberlist.php?mode=viewprofile&amp;u=145372" style="color: #003333;" class="username-coloured" rel="nofollow">Arpangel</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=23&amp;t=75290&amp;p=725717&amp;hilit=#p725717" title="View the latest post" class="author">></a></span><br /><span class="phpbbforum_recent_date">Tue Dec 01, 2020 10:04 am</span><br /><span class="phpbbforum_recent_title"><a href="https://www.soundonsound.com/forum/viewforum.php?f=23">Keyboards & Synthesis</a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=25&amp;t=75325&amp;p=725716&amp;hilit=#p725716" class="topic">Re: Painting and music?</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=25&amp;t=75325&amp;view=unread#unread" title="View first unread post" class="topic-last">></a></span><br /><span class="phpbbforum_recent_author"><a href="https://www.soundonsound.com/forum/memberlist.php?mode=viewprofile&amp;u=145673" style="color: #003333;" class="username-coloured" rel="nofollow">RichardT</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=25&amp;t=75325&amp;p=725716&amp;hilit=#p725716" title="View the latest post" class="author">></a></span><br /><span class="phpbbforum_recent_date">Tue Dec 01, 2020 10:01 am</span><br /><span class="phpbbforum_recent_title"><a href="https://www.soundonsound.com/forum/viewforum.php?f=25">Music Theory, Songwriting & Composition</a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=24&amp;t=75315&amp;p=725715&amp;hilit=#p725715" class="topic">Re: DIY popshield advice? (for the millionth time)</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=24&amp;t=75315&amp;view=unread#unread" title="View first unread post" class="topic-last">></a></span><br /><span class="phpbbforum_recent_author"><a href="https://www.soundonsound.com/forum/memberlist.php?mode=viewprofile&amp;u=97919" style="color: #003333;" class="username-coloured" rel="nofollow">blinddrew</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=24&amp;t=75315&amp;p=725715&amp;hilit=#p725715" title="View the latest post" class="author">></a></span><br /><span class="phpbbforum_recent_date">Tue Dec 01, 2020 10:00 am</span><br /><span class="phpbbforum_recent_title"><a href="https://www.soundonsound.com/forum/viewforum.php?f=24">DIY Electronics & Studio Design</a></span></li></ul></noscript></div>  </div>
+</div>
+  </div>
+      <div class="l-region l-region--postscript-second">
+    <div id="block-dfp-sos-rect-level-1-2" class="block block--dfp block--dfp-sos-rect-level-1-2">
+        <div class="block__content">
+    <div id="dfp-ad-sos_rect_level_1_2-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-sos_rect_level_1_2" class="dfp-tag-wrapper">
+        <script type="text/javascript">
+      googletag.cmd.push(function() {
+      googletag.display("dfp-ad-sos_rect_level_1_2");
+    });
+  </script>
+  </div>
+</div>  </div>
+</div>
+<div id="block-phpbbforum-new-topics" class="block block--phpbbforum block--phpbbforum-new-topics">
+        <h2 class="block__title"><span>Recent topics</span></h2>
+      <div class="block__content">
+    <div id="block-phpbbforum-new_topics-ajax-content" class="ajaxblocks-wrapper-7"><script type="text/javascript"></script><noscript><ul class="menu"><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=26&amp;t=75322" class="topic">Mastering audio for TV Broadcast for the first time!</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=26&amp;t=75322&amp;view=unread#unread" class="topic-last" title="View first unread post"></a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=25&amp;t=75325" class="topic">Painting and music?</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=25&amp;t=75325&amp;view=unread#unread" class="topic-last" title="View first unread post"></a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=24&amp;t=75315" class="topic">DIY popshield advice? (for the millionth time)</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=24&amp;t=75315&amp;view=unread#unread" class="topic-last" title="View first unread post"></a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75321" class="topic">Home exp recording</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75321&amp;view=unread#unread" class="topic-last" title="View first unread post"></a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=23&amp;t=75290" class="topic">Pedals</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=23&amp;t=75290&amp;view=unread#unread" class="topic-last" title="View first unread post"></a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75295" class="topic">Patch Bays</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75295&amp;view=unread#unread" class="topic-last" title="View first unread post"></a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=16&amp;t=75081" class="topic">Need some advice on mixing reggae tracks</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=16&amp;t=75081&amp;view=unread#unread" class="topic-last" title="View first unread post"></a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=23&amp;t=75317" class="topic">static electricity doing bad things to my keyboards</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=23&amp;t=75317&amp;view=unread#unread" class="topic-last" title="View first unread post"></a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75170" class="topic">Capstan Dirty after almost every playback - Tascam TSR-...</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75170&amp;view=unread#unread" class="topic-last" title="View first unread post"></a></span></li><li><span class="phpbbforum_recent_subject"><a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75326" class="topic">Question for celemony capstan users</a>&nbsp;<a href="https://www.soundonsound.com/forum/viewtopic.php?f=15&amp;t=75326&amp;view=unread#unread" class="topic-last" title="View first unread post"></a></span></li></ul></noscript></div>  </div>
+</div>
+  </div>
+      <div class="l-region l-region--postscript-third">
+    <div id="block-dfp-sos-rect-level-1-3" class="block block--dfp block--dfp-sos-rect-level-1-3">
+        <div class="block__content">
+    <div id="dfp-ad-sos_rect_level_1_3-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-sos_rect_level_1_3" class="dfp-tag-wrapper">
+        <script type="text/javascript">
+      googletag.cmd.push(function() {
+      googletag.display("dfp-ad-sos_rect_level_1_3");
+    });
+  </script>
+  </div>
+</div>  </div>
+</div>
+<div id="block-phpbbforum-forums" class="block block--phpbbforum block--phpbbforum-forums">
+        <h2 class="block__title"><span>Recently active forums</span></h2>
+      <div class="block__content">
+    <ul class="phpbb-forums"><li><a href="/forum/viewforum.php?f=26">Live Sound &amp; Performance</a></li><li><a href="/forum/viewforum.php?f=25">Music Theory, Songwriting &amp; Composition</a></li><li><a href="/forum/viewforum.php?f=24">DIY Electronics &amp; Studio Design</a></li><li><a href="/forum/viewforum.php?f=15">Recording: Gear &amp; Techniques</a></li><li><a href="/forum/viewforum.php?f=23">Keyboards &amp; Synthesis</a></li><li><a href="/forum/viewforum.php?f=16">Mixing, Mastering &amp; Post Production</a></li><li><a href="/forum/viewforum.php?f=19">Mac Music</a></li><li><a href="/forum/viewforum.php?f=22">Guitar Technology</a></li><li><a href="/forum/viewforum.php?f=20">Windows Music</a></li><li><a href="/forum/viewforum.php?f=30">SOS Support Forum</a></li><li><a href="/forum/viewforum.php?f=29">Feedback</a></li><li><a href="/forum/viewforum.php?f=17">New Products &amp;amp; Industry News</a></li><li><a href="/forum/viewforum.php?f=21">Apps &amp; Other Computers/OS</a></li><li><a href="/forum/viewforum.php?f=35">Useful Information Archive</a></li><li><a href="/forum/viewforum.php?f=27">User Reviews</a></li><li><a href="/forum/viewforum.php?f=18">Music Business</a></li><li><a href="/forum/viewforum.php?f=34">Remote Collaboration</a></li></ul>  </div>
+</div>
+<div style="display:none"><div id="login-popup"><div id="block-sos-users-sos-login-popup" class="block block--sos-users block--sos-users-sos-login-popup">
+        <div class="block__content">
+    <form class="user-login" action="/" method="post" id="user-login" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+ <input placeholder="Username/email" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" class="form-text required" />
+<div class="description">You may login with either your assigned username or your e-mail address.</div>
+</div>
+<div class="form-item form-type-password form-item-pass">
+ <input placeholder="Password" type="password" id="edit-pass" name="pass" size="60" maxlength="128" class="form-text required" />
+<div class="description">The password field is case sensitive.</div>
+</div>
+<input type="hidden" name="form_build_id" value="form-BDMwrUbSeXzdRLk9rqFQPamZjjMbLalP0w-QZ-TEspc" />
+<input type="hidden" name="form_id" value="user_login" />
+<div class="login-forgot"><a href="/user/password">Request new password</a></div><p><a href="/user/register?destination=front">Create an account</a></p><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit-pass" name="op" value="Log in" class="form-submit" /></div></div></form>  </div>
+</div>
+</div></div>  </div>
+      </div>
+
+  <div class="l-footer-top">
+      <div class="l-region l-region--footer-ad">
+    <div id="block--managed-0" class="block block---managed block---managed-0" id="block-adsense-managed-0" class="block block--adsense-managed block--adsense-managed-0">
+
+    
+  <div class="content" class="block__content">
+    <div style='text-align:center'><div class='adsense responsive' >
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3837112072614680"
+     data-ad-slot="2603745980"
+     data-ad-format="rectangle"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div>  </div>
+</div>
+  </div>
+      <div class="l-region l-region--footer-first">
+    <nav id="block-menu-menu-footer-menu-compact" role="navigation" class="block block--menu block--menu-menu-footer-menu-compact">
+      
+  <ul class="menu"><li class="first leaf"><a href="/contact" title="">Contact Us</a></li>
+<li class="leaf"><a href="/information/cookies-site-security" title="">Cookie Policy</a></li>
+<li class="leaf"><a href="/help" title="">Help</a></li>
+<li class="leaf"><a href="/information/privacy-policy" title="">Privacy Policy</a></li>
+<li class="last leaf"><a href="/information/website-terms-use" title="">Terms of Use</a></li>
+</ul></nav>
+  </div>
+      <div class="l-region l-region--social-media">
+    <div id="block-block-6" class="block block--block block--block-6">
+        <div class="block__content">
+    <p><a class="sm-icon fb" href="http://www.facebook.com/soundonsoundmag">&nbsp;</a><a class="sm-icon tw" href="http://www.twitter.com/soundonsoundmag">&nbsp;</a><a class="sm-icon yt" href="https://www.youtube.com/user/soundonsoundvideo">&nbsp;</a><a class="sm-icon in" href="https://www.instagram.com/soundonsoundmag/">&nbsp;</a><a class="sm-icon sc" href="http://soundcloud.com/soundonsound">&nbsp;</a><a class="sm-icon rss" href="/latest_news.xml">&nbsp;</a></p>
+  </div>
+</div>
+  </div>
+      </div>
+
+  <footer class="l-footer" role="contentinfo">
+      <div class="l-region l-region--footer">
+    <div id="block-block-5" class="block block--block block--block-5">
+        <div class="block__content">
+    <p>All contents copyright &copy; SOS Publications Group and/or its licensors, 1985-2020. All rights reserved.<br />
+	The contents of this article are subject to worldwide copyright protection and reproduction in whole or part, whether mechanical or electronic, is expressly forbidden without the prior written consent of the Publishers. Great care has been taken to ensure accuracy in the preparation of this article but neither Sound On Sound Limited nor the publishers can be held responsible for its contents. The views expressed are those of the contributors and not necessarily those of the publishers.</p>
+
+<p>Web site designed &amp; maintained by PB Associates &amp; SOS</p>
+  </div>
+</div>
+  </div>
+  </footer>
+</div>
+  
+<!--[if lte IE 9]>
+<script type="text/javascript" src="https://dt7v1i9vyp3mf.cloudfront.net/advagg_js/js__ihBqZApvdWuCh2HdVMu8mHPY8x0s2S7TCJRMFhtJrkY__eFDtq1FcmyYUyQFnrne47aBe7tlMqeZMDz1rbHJa98g__p28C8xeTsUXMd5VoqKQGkIRzv6Tdka2nfkTpOo2-yDY.js#ie9-" onload="if(jQuery.isFunction(jQuery.holdReady))jQuery.holdReady(true)
+function advagg_mod_5(){advagg_mod_5.count=++advagg_mod_5.count||1;try{if(advagg_mod_5.count<=40){init_drupal_core_settings();advagg_mod_5.count=100}}catch(e){if(advagg_mod_5.count>=40){throw e}else window.setTimeout(advagg_mod_5,1)}}
+function advagg_mod_5_check(){if(window.init_drupal_core_settings&&window.jQuery&&window.Drupal){advagg_mod_5()}else window.setTimeout(advagg_mod_5_check,1)};advagg_mod_5_check();"></script>
+<![endif]-->
+
+<!--[if gt IE 9]>
+<script type="text/javascript" src="https://dt7v1i9vyp3mf.cloudfront.net/advagg_js/js__ihBqZApvdWuCh2HdVMu8mHPY8x0s2S7TCJRMFhtJrkY__eFDtq1FcmyYUyQFnrne47aBe7tlMqeZMDz1rbHJa98g__p28C8xeTsUXMd5VoqKQGkIRzv6Tdka2nfkTpOo2-yDY.js#ie10+" defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady))jQuery.holdReady(true)
+function advagg_mod_5(){advagg_mod_5.count=++advagg_mod_5.count||1;try{if(advagg_mod_5.count<=40){init_drupal_core_settings();advagg_mod_5.count=100}}catch(e){if(advagg_mod_5.count>=40){throw e}else window.setTimeout(advagg_mod_5,1)}}
+function advagg_mod_5_check(){if(window.init_drupal_core_settings&&window.jQuery&&window.Drupal){advagg_mod_5()}else window.setTimeout(advagg_mod_5_check,1)};advagg_mod_5_check();"></script>
+<![endif]-->
+
+<!--[if !IE]><!-->
+<script type="text/javascript" src="https://dt7v1i9vyp3mf.cloudfront.net/advagg_js/js__ihBqZApvdWuCh2HdVMu8mHPY8x0s2S7TCJRMFhtJrkY__eFDtq1FcmyYUyQFnrne47aBe7tlMqeZMDz1rbHJa98g__p28C8xeTsUXMd5VoqKQGkIRzv6Tdka2nfkTpOo2-yDY.js" defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady))jQuery.holdReady(true)
+function advagg_mod_5(){advagg_mod_5.count=++advagg_mod_5.count||1;try{if(advagg_mod_5.count<=40){init_drupal_core_settings();advagg_mod_5.count=100}}catch(e){if(advagg_mod_5.count>=40){throw e}else window.setTimeout(advagg_mod_5,1)}}
+function advagg_mod_5_check(){if(window.init_drupal_core_settings&&window.jQuery&&window.Drupal){advagg_mod_5()}else window.setTimeout(advagg_mod_5_check,1)};advagg_mod_5_check();"></script>
+<!--<![endif]-->
+<script type="text/javascript" src="https://dt7v1i9vyp3mf.cloudfront.net/advagg_js/js__RvLVKOnTdQO4VBlh8z2t4GJAwCACZ-707Dk1YziIbCw__TmFa4TunXxUa66wSnhGgjy6lFdGkRVcGM22Zg57peyQ__p28C8xeTsUXMd5VoqKQGkIRzv6Tdka2nfkTpOo2-yDY.js" defer="defer" async="async"></script>
+<script type="text/javascript" src="https://dt7v1i9vyp3mf.cloudfront.net/advagg_js/js__eavUzDyff6_5MNW3RvnUFCssm6c3gtCLEkfG_0HHzYg__Wc9Vid05bmlhZlaIcd8IBhSZhHn-Vz2g0b49KlzaF2g__p28C8xeTsUXMd5VoqKQGkIRzv6Tdka2nfkTpOo2-yDY.js" defer="defer"></script>
+<script type="text/javascript" src="https://dt7v1i9vyp3mf.cloudfront.net/advagg_js/js__QHrWNopU-aGDbj0AZC1NPAPZLKlgRGIKHPQMv0x2iG8__-7-_sFoneqY8NM3-fFSOwE4XpXRc-cjntxD3w6mBIeU__p28C8xeTsUXMd5VoqKQGkIRzv6Tdka2nfkTpOo2-yDY.js" defer="defer"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.slots = googletag.slots || {};
+
+googletag.cmd.push(function() {
+  var mapping = googletag.sizeMapping()
+  .addSize([0, 0], [[320, 50], [300, 50], [300, 100]])
+  .addSize([480, 0], [728, 90])
+  .build();
+googletag.slots["sos_leaderb_728x90"] = googletag.defineSlot("/5445168/SOS_Leaderboard_728x90", [[728, 90], [300, 50], [320, 50], [300, 100]], "dfp-ad-sos_leaderb_728x90")
+  .addService(googletag.pubads())
+  .defineSizeMapping(mapping)});
+
+googletag.cmd.push(function() {
+googletag.slots["sos_video_ad_300x170"] = googletag.defineSlot("/5445168/SOS_video_Ad_300x170", [[300, 170], [300, 250]], "dfp-ad-sos_video_ad_300x170")
+  .addService(googletag.pubads())});
+
+googletag.cmd.push(function() {
+googletag.slots["sos_side_300x600"] = googletag.defineSlot("/5445168/SOS_side_160x600", [[300, 250], [300, 600]], "dfp-ad-sos_side_300x600")
+  .addService(googletag.pubads())});
+
+googletag.cmd.push(function() {
+googletag.slots["sos_rect_level_1"] = googletag.defineSlot("/5445168/SOS_rect_level_1", [300, 100], "dfp-ad-sos_rect_level_1")
+  .addService(googletag.pubads())});
+
+googletag.cmd.push(function() {
+googletag.slots["sos_rect_level_1_2"] = googletag.defineSlot("/5445168/SOS_rect_level_1", [300, 100], "dfp-ad-sos_rect_level_1_2")
+  .addService(googletag.pubads())});
+
+googletag.cmd.push(function() {
+googletag.slots["sos_rect_level_1_3"] = googletag.defineSlot("/5445168/SOS_rect_level_1", [300, 100], "dfp-ad-sos_rect_level_1_3")
+  .addService(googletag.pubads())});
+
+googletag.cmd.push(function() {
+googletag.pubads().enableAsyncRendering();
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().collapseEmptyDivs();
+  googletag.pubads().disableInitialLoad();
+  googletag.pubads().setTargeting("Page", "/front");
+  googletag.pubads().setTargeting("Section", "front");
+  
+});
+
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function init_drupal_core_settings() {jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"returnFocus":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"300","initialHeight":"250","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25,"container":""},"blazyIo":{"enabled":false,"disconnect":false,"rootMargin":"0px","threshold":[0]},"better_exposed_filters":{"views":{"home_page_listing":{"displays":{"page":{"filters":[]}}},"subject":{"displays":{"featured":{"filters":[]}}},"home_page_articles":{"displays":{"feature":{"filters":[]},"articles":{"filters":[]}}},"competitions":{"displays":{"comp_sidebar":{"filters":[]}}},"slick_sections":{"displays":{"reviews":{"filters":[]},"techniques":{"filters":[]}}}}},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"autoplaySpeed":3000,"pauseOnHover":true,"pauseOnDotsHover":false,"arrows":true,"downArrow":false,"downArrowTarget":"","downArrowOffset":0,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mouseWheel":false,"randomize":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.35,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","cssEaseBezier":"","cssEaseOverride":"","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true},"urlIsAjaxTrusted":{"\/":true},"back_to_top":{"back_to_top_button_trigger":"500","back_to_top_button_text":"Back to top","#attached":{"library":[["system","ui"]]}},"responsive_menus":[{"selectors":"#block-menu-block-1","container":"body","trigger_txt":"","close_txt":"X","close_size":"18px","position":"right","media_size":"479","show_children":"1","expand_children":"1","expand_txt":"+","contract_txt":"-","remove_attrs":"0","responsive_menus_style":"mean_menu"}],"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":1,"popup_scrolling_confirmation":0,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--default\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EBy clicking any link on this page you are giving your consent for us to set cookies.\u003C\/p\u003E              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ENo, give me more info\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EOK, I agree\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--default\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n                    \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ENo, give me more info\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EOK, I agree\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/information\/cookies-site-security","popup_link_new_window":1,"popup_position":true,"fixed_top_position":1,"popup_language":"en-gb","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","domain_all_sites":null,"popup_eu_only_js":1,"cookie_lifetime":"100","cookie_session":false,"disagree_do_not_show_popup":0,"method":"default","whitelisted_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\n\n\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false,"withdraw_button_on_info_popup":false,"cookie_categories":[],"enable_save_preferences_button":true,"fix_first_cookie_category":true,"select_all_categories_by_default":false},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"currentPath":"front","currentPathIsAdmin":false,"sos_subscription":{"status":false},"ajaxblocks":"blocks=views-competitions-comp_sidebar\/phpbbforum-new_posts\/phpbbforum-new_topics\u0026path=front","commerceAddToCartConfirmation":{"overlayClass":"commerce_add_to_cart_confirmation_overlay","overlayParentSelector":"body"}}); 
+if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(false);}} if(window.jQuery && window.Drupal){init_drupal_core_settings();}
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://dt7v1i9vyp3mf.cloudfront.net/advagg_js/js__v_4yJHVtE6RUu6yqhWqVJhN8cT82FDxs_Va_i0KPQGA__DYFcN3XiPSH52cvIO2JcAptV7PxWjtHPy_OyZfiecmg__p28C8xeTsUXMd5VoqKQGkIRzv6Tdka2nfkTpOo2-yDY.js" defer="defer"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function advagg_mod_6(){advagg_mod_6.count=++advagg_mod_6.count||1;try{if(advagg_mod_6.count<=40){var eu_cookie_compliance_cookie_name="";advagg_mod_6.count=100}}catch(e){if(advagg_mod_6.count>=40){throw e}else window.setTimeout(advagg_mod_6,250)}}
+function advagg_mod_6_check(){if(window.jQuery&&window.Drupal&&window.Drupal.settings){advagg_mod_6()}else window.setTimeout(advagg_mod_6_check,250)};advagg_mod_6_check();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function advagg_mod_7(){advagg_mod_7.count=++advagg_mod_7.count||1;try{if(advagg_mod_7.count<=40){(function($){var test=document.createElement('div');test.innerHTML='.';test.className='adsbox';document.body.appendChild(test);window.setTimeout(function(){if(test.offsetHeight===0){bajCDrfnQidL='Yes'}else bajCDrfnQidL='No';test.remove();if(bajCDrfnQidL=='Yes'&&$.cookie('adsblocked_shown')!=='1'){$.cookie('adsblocked_shown',1,{path:'/'});$.colorbox({href:'/adsblocked'})};if(typeof ga!=='undefined'){ga('send','event',{eventCategory:'Blocking Ads',eventAction:bajCDrfnQidL,nonInteraction:true})}else if(typeof _gaq!=='undefined')_gaq.push(['_trackEvent','Blocking Ads',bajCDrfnQidL,undefined,undefined,true])},1e3)})(jQuery);advagg_mod_7.count=100}}catch(e){if(advagg_mod_7.count>=40){throw e}else window.setTimeout(advagg_mod_7,250)}}
+function advagg_mod_7_check(){if(window.jQuery&&window.Drupal&&window.Drupal.settings){advagg_mod_7()}else window.setTimeout(advagg_mod_7_check,250)};advagg_mod_7_check();
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ffefa5a1f6","applicationID":"1304361","transactionName":"Zl1WNUsHCBVYVUNQVl8XYRNQSUkPV1JSQRdBUEQ=","queueTime":0,"applicationTime":71,"atts":"ShpVQwMdGxs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
